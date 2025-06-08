@@ -1,0 +1,232 @@
+2025-05-23 10:09:32,257 - face_detector_simple - INFO - MTCNN initialized with basic parameters
+2025-05-23 10:09:32,258 - facenet_model_casia - INFO - Using device: cpu
+2025-05-23 10:09:32,258 - facenet_model_casia - INFO - Loading CASIA-WebFace model...
+2025-05-23 10:09:32,774 - facenet_model_casia - INFO - CASIA-WebFace model loaded successfully
+2025-05-23 10:09:32,775 - facenet_model_casia - INFO - Output shape: torch.Size([1, 512])
+2025-05-23 10:09:32,775 - facenet_model_casia - INFO - FaceNet model initialized successfully with CASIA-WebFace
+2025-05-23 10:09:32,788 - facenet_model_casia - INFO - Loaded embeddings for 35 identities
+2025-05-23 10:09:32,813 - pyngrok.ngrok - INFO - Opening tunnel named: http-5000-641c8acc-7678-4f35-8bb7-624b39a10a4f
+2025-05-23 10:09:35,788 - pyngrok.process.ngrok - INFO - t=2025-05-23T10:09:35+0700 lvl=info msg="no configuration paths supplied"
+2025-05-23 10:09:35,788 - pyngrok.process.ngrok - INFO - t=2025-05-23T10:09:35+0700 lvl=info msg="using configuration at default config path" path=C:\\Users\\dimas\\AppData\\Local/ngrok/ngrok.yml
+2025-05-23 10:09:35,789 - pyngrok.process.ngrok - INFO - t=2025-05-23T10:09:35+0700 lvl=info msg="open config file" path=C:\\Users\\dimas\\AppData\\Local\\ngrok\\ngrok.yml err=nil
+2025-05-23 10:09:35,793 - pyngrok.process.ngrok - INFO - t=2025-05-23T10:09:35+0700 lvl=info msg="starting web service" obj=web addr=127.0.0.1:4040 allow_hosts=[]
+2025-05-23 10:09:36,072 - pyngrok.process.ngrok - INFO - t=2025-05-23T10:09:36+0700 lvl=info msg="client session established" obj=tunnels.session
+2025-05-23 10:09:36,073 - pyngrok.process.ngrok - INFO - t=2025-05-23T10:09:36+0700 lvl=info msg="tunnel session started" obj=tunnels.session
+2025-05-23 10:09:36,076 - pyngrok.process.ngrok - INFO - t=2025-05-23T10:09:36+0700 lvl=info msg=start pg=/api/tunnels id=755326ecc5427175
+2025-05-23 10:09:36,077 - pyngrok.process.ngrok - INFO - t=2025-05-23T10:09:36+0700 lvl=info msg=end pg=/api/tunnels id=755326ecc5427175 status=200 dur=543.4µs
+2025-05-23 10:09:36,077 - pyngrok.process.ngrok - INFO - t=2025-05-23T10:09:36+0700 lvl=info msg=start pg=/api/tunnels id=4941585ba9fcbe06
+2025-05-23 10:09:36,077 - pyngrok.process.ngrok - INFO - t=2025-05-23T10:09:36+0700 lvl=info msg=end pg=/api/tunnels id=4941585ba9fcbe06 status=200 dur=0s
+2025-05-23 10:09:36,079 - pyngrok.process.ngrok - INFO - t=2025-05-23T10:09:36+0700 lvl=info msg=start pg=/api/tunnels id=35532aa326861d4a
+2025-05-23 10:09:36,119 - pyngrok.process.ngrok - INFO - t=2025-05-23T10:09:36+0700 lvl=info msg="started tunnel" obj=tunnels name=http-5000-641c8acc-7678-4f35-8bb7-624b39a10a4f addr=http://localhost:5000 url=https://a6b4-182-253-177-138.ngrok-free.app
+2025-05-23 10:09:36,120 - __main__ - INFO - Ngrok tunnel started: NgrokTunnel: "https://a6b4-182-253-177-138.ngrok-free.app" -> "http://localhost:5000"
+2025-05-23 10:09:36,120 - pyngrok.process.ngrok - INFO - t=2025-05-23T10:09:36+0700 lvl=info msg=end pg=/api/tunnels id=35532aa326861d4a status=201 dur=40.4936ms
+2025-05-23 10:09:36,121 - __main__ - INFO - Starting server on 0.0.0.0:5000
+2025-05-23 10:09:36,130 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.18.216:5000
+2025-05-23 10:09:36,131 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-05-23 10:15:10,090 - pyngrok.process.ngrok - ERROR - t=2025-05-23T10:15:10+0700 lvl=eror msg="heartbeat timeout, terminating session" obj=tunnels.session obj=csess id=e94dc9efc949 clientid=8dcbb7149e3e7e264508729cc787dff9
+2025-05-23 10:15:10,091 - pyngrok.process.ngrok - ERROR - t=2025-05-23T10:15:10+0700 lvl=eror msg="session closed, starting reconnect loop" obj=tunnels.session obj=csess id=8f001d8fe763 err="session closed"
+2025-05-23 10:15:20,091 - pyngrok.process.ngrok - ERROR - t=2025-05-23T10:15:20+0700 lvl=eror msg="failed to reconnect session" obj=tunnels.session err="failed to dial ngrok server with address \"connect.ngrok-agent.com:443\": dial tcp: lookup connect.ngrok-agent.com: i/o timeout"
+2025-05-23 10:15:29,764 - pyngrok.process.ngrok - INFO - t=2025-05-23T10:15:29+0700 lvl=info msg="received stop request" obj=app stopReq="{err:<nil> restart:false}"
+2025-05-23 10:15:29,764 - pyngrok.process.ngrok - INFO - t=2025-05-23T10:15:29+0700 lvl=info msg="session closing" obj=tunnels.session err=nil
+2025-05-23 10:15:29,765 - pyngrok.process.ngrok - INFO - t=2025-05-23T10:15:29+0700 lvl=info msg="no more state changes" obj=tunnels.session
+2025-05-23 10:17:51,032 - face_detector_simple - INFO - MTCNN initialized with basic parameters
+2025-05-23 10:17:51,032 - facenet_model_casia - INFO - Using device: cpu
+2025-05-23 10:17:51,032 - facenet_model_casia - INFO - Loading CASIA-WebFace model...
+2025-05-23 10:17:51,602 - facenet_model_casia - INFO - CASIA-WebFace model loaded successfully
+2025-05-23 10:17:51,602 - facenet_model_casia - INFO - Output shape: torch.Size([1, 512])
+2025-05-23 10:17:51,602 - facenet_model_casia - INFO - FaceNet model initialized successfully with CASIA-WebFace
+2025-05-23 10:17:51,603 - facenet_model_casia - INFO - Loaded embeddings for 35 identities
+2025-05-23 10:17:51,614 - pyngrok.ngrok - INFO - Opening tunnel named: http-5000-353bc65a-600e-4542-a880-5df38b844ff7
+2025-05-23 10:17:51,670 - pyngrok.process.ngrok - INFO - t=2025-05-23T10:17:51+0700 lvl=info msg="no configuration paths supplied"
+2025-05-23 10:17:51,670 - pyngrok.process.ngrok - INFO - t=2025-05-23T10:17:51+0700 lvl=info msg="using configuration at default config path" path=C:\\Users\\dimas\\AppData\\Local/ngrok/ngrok.yml
+2025-05-23 10:17:51,671 - pyngrok.process.ngrok - INFO - t=2025-05-23T10:17:51+0700 lvl=info msg="open config file" path=C:\\Users\\dimas\\AppData\\Local\\ngrok\\ngrok.yml err=nil
+2025-05-23 10:17:51,674 - pyngrok.process.ngrok - INFO - t=2025-05-23T10:17:51+0700 lvl=info msg="starting web service" obj=web addr=127.0.0.1:4040 allow_hosts=[]
+2025-05-23 10:17:52,099 - pyngrok.process.ngrok - INFO - t=2025-05-23T10:17:52+0700 lvl=info msg="client session established" obj=tunnels.session
+2025-05-23 10:17:52,100 - pyngrok.process.ngrok - INFO - t=2025-05-23T10:17:52+0700 lvl=info msg="tunnel session started" obj=tunnels.session
+2025-05-23 10:17:52,102 - pyngrok.process.ngrok - INFO - t=2025-05-23T10:17:52+0700 lvl=info msg=start pg=/api/tunnels id=ed566dd2c373aac0
+2025-05-23 10:17:52,102 - pyngrok.process.ngrok - INFO - t=2025-05-23T10:17:52+0700 lvl=info msg=end pg=/api/tunnels id=ed566dd2c373aac0 status=200 dur=0s
+2025-05-23 10:17:52,103 - pyngrok.process.ngrok - INFO - t=2025-05-23T10:17:52+0700 lvl=info msg=start pg=/api/tunnels id=eb6388f9cb2d1e4f
+2025-05-23 10:17:52,104 - pyngrok.process.ngrok - INFO - t=2025-05-23T10:17:52+0700 lvl=info msg=end pg=/api/tunnels id=eb6388f9cb2d1e4f status=200 dur=0s
+2025-05-23 10:17:52,104 - pyngrok.process.ngrok - INFO - t=2025-05-23T10:17:52+0700 lvl=info msg=start pg=/api/tunnels id=4e13f9cf8e3141d2
+2025-05-23 10:17:52,170 - pyngrok.process.ngrok - INFO - t=2025-05-23T10:17:52+0700 lvl=info msg="started tunnel" obj=tunnels name=http-5000-353bc65a-600e-4542-a880-5df38b844ff7 addr=http://localhost:5000 url=https://3302-2404-c0-2120-00-13d8-a444.ngrok-free.app
+2025-05-23 10:17:52,170 - __main__ - INFO - Ngrok tunnel started: NgrokTunnel: "https://3302-2404-c0-2120-00-13d8-a444.ngrok-free.app" -> "http://localhost:5000"
+2025-05-23 10:17:52,170 - pyngrok.process.ngrok - INFO - t=2025-05-23T10:17:52+0700 lvl=info msg=end pg=/api/tunnels id=4e13f9cf8e3141d2 status=201 dur=65.488ms
+2025-05-23 10:17:52,170 - __main__ - INFO - Starting server on 0.0.0.0:5000
+2025-05-23 10:17:52,180 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.189.180:5000
+2025-05-23 10:17:52,180 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-05-23 10:18:29,846 - werkzeug - INFO - 127.0.0.1 - - [23/May/2025 10:18:29] "GET /identities HTTP/1.1" 200 -
+2025-05-23 10:19:00,752 - werkzeug - INFO - 127.0.0.1 - - [23/May/2025 10:19:00] "[31m[1mGET /verify-face HTTP/1.1[0m" 405 -
+2025-05-23 10:19:05,409 - werkzeug - INFO - 127.0.0.1 - - [23/May/2025 10:19:05] "[31m[1mPOST /verify-face HTTP/1.1[0m" 400 -
+2025-05-23 10:19:38,135 - tensorflow - WARNING - 5 out of the last 10 calls to <function Model.make_predict_function.<locals>.predict_function at 0x0000027616D169D8> triggered tf.function retracing. Tracing is expensive and the excessive number of tracings could be due to (1) creating @tf.function repeatedly in a loop, (2) passing tensors with different shapes, (3) passing Python objects instead of tensors. For (1), please define your @tf.function outside of the loop. For (2), @tf.function has experimental_relax_shapes=True option that relaxes argument shapes that can avoid unnecessary retracing. For (3), please refer to https://www.tensorflow.org/guide/function#controlling_retracing and https://www.tensorflow.org/api_docs/python/tf/function for  more details.
+2025-05-23 10:19:38,286 - werkzeug - INFO - 127.0.0.1 - - [23/May/2025 10:19:38] "POST /verify-face HTTP/1.1" 200 -
+2025-05-23 10:22:32,501 - facenet_model_casia - INFO - Registered dims with 1 valid embeddings
+2025-05-23 10:22:32,503 - facenet_model_casia - INFO - Embeddings saved to C:\PyProjects\face_recognition\models\face_embeddings.pkl
+2025-05-23 10:22:32,503 - werkzeug - INFO - 127.0.0.1 - - [23/May/2025 10:22:32] "POST /register-identity HTTP/1.1" 200 -
+2025-05-23 10:22:37,199 - facenet_model_casia - INFO - Registered dims with 1 valid embeddings
+2025-05-23 10:22:37,201 - facenet_model_casia - INFO - Embeddings saved to C:\PyProjects\face_recognition\models\face_embeddings.pkl
+2025-05-23 10:22:37,201 - werkzeug - INFO - 127.0.0.1 - - [23/May/2025 10:22:37] "POST /register-identity HTTP/1.1" 200 -
+2025-05-23 10:22:42,443 - werkzeug - INFO - 127.0.0.1 - - [23/May/2025 10:22:42] "GET /identities HTTP/1.1" 200 -
+2025-05-23 10:22:55,623 - werkzeug - INFO - 127.0.0.1 - - [23/May/2025 10:22:55] "POST /verify-face HTTP/1.1" 200 -
+2025-05-23 10:23:08,970 - werkzeug - INFO - 127.0.0.1 - - [23/May/2025 10:23:08] "POST /verify-face HTTP/1.1" 200 -
+2025-05-23 10:23:40,934 - facenet_model_casia - INFO - Registered dims with 1 valid embeddings
+2025-05-23 10:23:40,935 - facenet_model_casia - INFO - Embeddings saved to C:\PyProjects\face_recognition\models\face_embeddings.pkl
+2025-05-23 10:23:40,936 - werkzeug - INFO - 127.0.0.1 - - [23/May/2025 10:23:40] "POST /register-identity HTTP/1.1" 200 -
+2025-05-23 10:23:50,034 - werkzeug - INFO - 127.0.0.1 - - [23/May/2025 10:23:50] "GET /identities HTTP/1.1" 200 -
+2025-05-23 10:23:55,394 - werkzeug - INFO - 127.0.0.1 - - [23/May/2025 10:23:55] "[31m[1mPOST /verify-face HTTP/1.1[0m" 400 -
+2025-05-23 10:24:02,288 - werkzeug - INFO - 127.0.0.1 - - [23/May/2025 10:24:02] "POST /verify-face HTTP/1.1" 200 -
+2025-05-23 10:24:25,193 - werkzeug - INFO - 127.0.0.1 - - [23/May/2025 10:24:25] "POST /verify-face HTTP/1.1" 200 -
+2025-05-23 10:25:57,823 - pyngrok.process.ngrok - ERROR - t=2025-05-23T10:25:57+0700 lvl=eror msg="session closed, starting reconnect loop" obj=tunnels.session obj=csess id=88a7612eb039 err="read tcp [2404:c0:202c:6da9:3413:9c47:f1d8:6315]:62481->[2406:da18:27f:c801::6e74:4]:443: wsarecv: An established connection was aborted by the software in your host machine."
+2025-05-23 10:25:57,832 - pyngrok.process.ngrok - ERROR - t=2025-05-23T10:25:57+0700 lvl=eror msg="failed to reconnect session" obj=tunnels.session err="failed to dial ngrok server with address \"connect.ngrok-agent.com:443\": dial tcp: lookup connect.ngrok-agent.com: no such host"
+2025-05-23 10:25:58,332 - pyngrok.process.ngrok - ERROR - t=2025-05-23T10:25:58+0700 lvl=eror msg="failed to reconnect session" obj=tunnels.session err="failed to dial ngrok server with address \"connect.ngrok-agent.com:443\": dial tcp: lookup connect.ngrok-agent.com: no such host"
+2025-05-23 10:25:59,332 - pyngrok.process.ngrok - ERROR - t=2025-05-23T10:25:59+0700 lvl=eror msg="failed to reconnect session" obj=tunnels.session err="failed to dial ngrok server with address \"connect.ngrok-agent.com:443\": dial tcp: lookup connect.ngrok-agent.com: no such host"
+2025-05-23 10:26:01,333 - pyngrok.process.ngrok - ERROR - t=2025-05-23T10:26:01+0700 lvl=eror msg="failed to reconnect session" obj=tunnels.session err="failed to dial ngrok server with address \"connect.ngrok-agent.com:443\": dial tcp: lookup connect.ngrok-agent.com: no such host"
+2025-05-23 10:26:05,337 - pyngrok.process.ngrok - ERROR - t=2025-05-23T10:26:05+0700 lvl=eror msg="failed to reconnect session" obj=tunnels.session err="failed to dial ngrok server with address \"connect.ngrok-agent.com:443\": dial tcp: lookup connect.ngrok-agent.com: no such host"
+2025-05-23 10:26:13,628 - pyngrok.process.ngrok - ERROR - t=2025-05-23T10:26:13+0700 lvl=eror msg="failed to reconnect session" obj=tunnels.session err="authentication failed: Your account is limited to 1 simultaneous ngrok agent sessions.\nYou can run multiple simultaneous tunnels from a single agent session by defining the tunnels in your agent configuration file and starting them with the command `ngrok start --all`.\nRead more about the agent configuration file: https://ngrok.com/docs/secure-tunnels/ngrok-agent/reference/config\nYou can view your current agent sessions in the dashboard:\nhttps://dashboard.ngrok.com/agents\r\n\r\nERR_NGROK_108\r\n"
+2025-05-23 10:26:17,126 - pyngrok.process.ngrok - ERROR - t=2025-05-23T10:26:17+0700 lvl=eror msg="heartbeat timeout, terminating session" obj=tunnels.session obj=csess id=1336bc8e9f0c clientid=c1b54bedfb6c5e964392c52da24c0116
+2025-05-23 10:26:30,147 - pyngrok.process.ngrok - INFO - t=2025-05-23T10:26:30+0700 lvl=info msg="client session established" obj=tunnels.session
+2025-05-23 10:26:30,148 - pyngrok.process.ngrok - INFO - t=2025-05-23T10:26:30+0700 lvl=info msg="tunnel session started" obj=tunnels.session
+2025-05-23 10:31:08,461 - pyngrok.process.ngrok - INFO - t=2025-05-23T10:31:08+0700 lvl=info msg="received stop request" obj=app stopReq="{err:<nil> restart:false}"
+2025-05-23 10:31:08,461 - pyngrok.process.ngrok - INFO - t=2025-05-23T10:31:08+0700 lvl=info msg="session closing" obj=tunnels.session err=nil
+2025-05-23 10:31:08,461 - pyngrok.process.ngrok - INFO - t=2025-05-23T10:31:08+0700 lvl=info msg="accept failed" obj=tunnels.session obj=csess id=88a7612eb039 err="reconnecting session closed"
+2025-05-23 10:31:08,461 - pyngrok.process.ngrok - INFO - t=2025-05-23T10:31:08+0700 lvl=info msg="no more state changes" obj=tunnels.session
+2025-05-23 10:31:08,462 - pyngrok.process.ngrok - INFO - t=2025-05-23T10:31:08+0700 lvl=info msg="failed to accept connection: Listener closed" obj=tunnels.session clientid=8cb0b3ffda4713aa919fe7598a610d91
+2025-05-23 10:31:17,610 - face_detector_simple - INFO - MTCNN initialized with basic parameters
+2025-05-23 10:31:17,610 - facenet_model_casia - INFO - Using device: cpu
+2025-05-23 10:31:17,611 - facenet_model_casia - INFO - Loading CASIA-WebFace model...
+2025-05-23 10:31:18,339 - facenet_model_casia - INFO - CASIA-WebFace model loaded successfully
+2025-05-23 10:31:18,340 - facenet_model_casia - INFO - Output shape: torch.Size([1, 512])
+2025-05-23 10:31:18,340 - facenet_model_casia - INFO - FaceNet model initialized successfully with CASIA-WebFace
+2025-05-23 10:31:18,368 - facenet_model_casia - INFO - Loaded embeddings for 36 identities
+2025-05-23 10:31:18,383 - pyngrok.ngrok - INFO - Opening tunnel named: http-5000-5d326e52-5fc4-4005-98b8-20db3e996c2e
+2025-05-23 10:31:18,472 - pyngrok.process.ngrok - INFO - t=2025-05-23T10:31:18+0700 lvl=info msg="no configuration paths supplied"
+2025-05-23 10:31:18,472 - pyngrok.process.ngrok - INFO - t=2025-05-23T10:31:18+0700 lvl=info msg="using configuration at default config path" path=C:\\Users\\dimas\\AppData\\Local/ngrok/ngrok.yml
+2025-05-23 10:31:18,473 - pyngrok.process.ngrok - INFO - t=2025-05-23T10:31:18+0700 lvl=info msg="open config file" path=C:\\Users\\dimas\\AppData\\Local\\ngrok\\ngrok.yml err=nil
+2025-05-23 10:31:18,475 - pyngrok.process.ngrok - INFO - t=2025-05-23T10:31:18+0700 lvl=info msg="starting web service" obj=web addr=127.0.0.1:4040 allow_hosts=[]
+2025-05-23 10:31:18,714 - pyngrok.process.ngrok - INFO - t=2025-05-23T10:31:18+0700 lvl=info msg="client session established" obj=tunnels.session
+2025-05-23 10:31:18,714 - pyngrok.process.ngrok - INFO - t=2025-05-23T10:31:18+0700 lvl=info msg="tunnel session started" obj=tunnels.session
+2025-05-23 10:31:18,717 - pyngrok.process.ngrok - INFO - t=2025-05-23T10:31:18+0700 lvl=info msg=start pg=/api/tunnels id=a8e234202f88cd8a
+2025-05-23 10:31:18,717 - pyngrok.process.ngrok - INFO - t=2025-05-23T10:31:18+0700 lvl=info msg=end pg=/api/tunnels id=a8e234202f88cd8a status=200 dur=0s
+2025-05-23 10:31:18,718 - pyngrok.process.ngrok - INFO - t=2025-05-23T10:31:18+0700 lvl=info msg=start pg=/api/tunnels id=d0af15ace0c429e4
+2025-05-23 10:31:18,718 - pyngrok.process.ngrok - INFO - t=2025-05-23T10:31:18+0700 lvl=info msg=end pg=/api/tunnels id=d0af15ace0c429e4 status=200 dur=0s
+2025-05-23 10:31:18,719 - pyngrok.process.ngrok - INFO - t=2025-05-23T10:31:18+0700 lvl=info msg=start pg=/api/tunnels id=c3157c8e3c5e0615
+2025-05-23 10:31:18,772 - pyngrok.process.ngrok - INFO - t=2025-05-23T10:31:18+0700 lvl=info msg="started tunnel" obj=tunnels name=http-5000-5d326e52-5fc4-4005-98b8-20db3e996c2e addr=http://localhost:5000 url=https://b8e4-182-253-177-138.ngrok-free.app
+2025-05-23 10:31:18,773 - __main__ - INFO - Ngrok tunnel started: NgrokTunnel: "https://b8e4-182-253-177-138.ngrok-free.app" -> "http://localhost:5000"
+2025-05-23 10:31:18,773 - pyngrok.process.ngrok - INFO - t=2025-05-23T10:31:18+0700 lvl=info msg=end pg=/api/tunnels id=c3157c8e3c5e0615 status=201 dur=52.7893ms
+2025-05-23 10:31:18,774 - __main__ - INFO - Starting server on 0.0.0.0:5000
+2025-05-23 10:31:18,782 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.18.216:5000
+2025-05-23 10:31:18,783 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-05-23 10:31:37,195 - tensorflow - WARNING - 5 out of the last 10 calls to <function Model.make_predict_function.<locals>.predict_function at 0x0000014287AEB168> triggered tf.function retracing. Tracing is expensive and the excessive number of tracings could be due to (1) creating @tf.function repeatedly in a loop, (2) passing tensors with different shapes, (3) passing Python objects instead of tensors. For (1), please define your @tf.function outside of the loop. For (2), @tf.function has experimental_relax_shapes=True option that relaxes argument shapes that can avoid unnecessary retracing. For (3), please refer to https://www.tensorflow.org/guide/function#controlling_retracing and https://www.tensorflow.org/api_docs/python/tf/function for  more details.
+2025-05-23 10:31:37,360 - facenet_model_casia - INFO - Registered dims with 1 valid embeddings
+2025-05-23 10:31:37,361 - facenet_model_casia - INFO - Embeddings saved to C:\PyProjects\face_recognition\models\face_embeddings.pkl
+2025-05-23 10:31:37,362 - werkzeug - INFO - 127.0.0.1 - - [23/May/2025 10:31:37] "POST /register-identity HTTP/1.1" 200 -
+2025-05-23 10:31:43,529 - pyngrok.process.ngrok - ERROR - t=2025-05-23T10:31:43+0700 lvl=eror msg="heartbeat timeout, terminating session" obj=tunnels.session obj=csess id=1ab2bcdbb82e clientid=dca7352cb449cc8bec03e1f4ad166b4d
+2025-05-23 10:31:43,530 - pyngrok.process.ngrok - ERROR - t=2025-05-23T10:31:43+0700 lvl=eror msg="session closed, starting reconnect loop" obj=tunnels.session obj=csess id=a395e6365784 err="session closed"
+2025-05-23 10:31:49,998 - facenet_model_casia - INFO - Registered dims with 1 valid embeddings
+2025-05-23 10:31:49,999 - facenet_model_casia - INFO - Embeddings saved to C:\PyProjects\face_recognition\models\face_embeddings.pkl
+2025-05-23 10:31:50,000 - werkzeug - INFO - 127.0.0.1 - - [23/May/2025 10:31:50] "POST /register-identity HTTP/1.1" 200 -
+2025-05-23 10:31:53,530 - pyngrok.process.ngrok - ERROR - t=2025-05-23T10:31:53+0700 lvl=eror msg="failed to reconnect session" obj=tunnels.session err="failed to dial ngrok server with address \"connect.ngrok-agent.com:443\": dial tcp 52.220.69.60:443: i/o timeout"
+2025-05-23 10:32:04,030 - pyngrok.process.ngrok - ERROR - t=2025-05-23T10:32:04+0700 lvl=eror msg="failed to reconnect session" obj=tunnels.session err="failed to dial ngrok server with address \"connect.ngrok-agent.com:443\": dial tcp 52.220.69.60:443: i/o timeout"
+2025-05-23 10:32:14,944 - pyngrok.process.ngrok - INFO - t=2025-05-23T10:32:14+0700 lvl=info msg="client session established" obj=tunnels.session
+2025-05-23 10:32:14,944 - pyngrok.process.ngrok - INFO - t=2025-05-23T10:32:14+0700 lvl=info msg="tunnel session started" obj=tunnels.session
+2025-05-23 10:33:11,313 - facenet_model_casia - INFO - Embeddings saved to C:\PyProjects\face_recognition\models\face_embeddings.pkl
+2025-05-23 10:33:11,313 - werkzeug - INFO - 127.0.0.1 - - [23/May/2025 10:33:11] "POST /add-faces HTTP/1.1" 200 -
+2025-05-23 10:33:17,582 - facenet_model_casia - INFO - Embeddings saved to C:\PyProjects\face_recognition\models\face_embeddings.pkl
+2025-05-23 10:33:17,582 - werkzeug - INFO - 127.0.0.1 - - [23/May/2025 10:33:17] "POST /add-faces HTTP/1.1" 200 -
+2025-05-23 10:33:49,593 - facenet_model_casia - INFO - Embeddings saved to C:\PyProjects\face_recognition\models\face_embeddings.pkl
+2025-05-23 10:33:49,594 - werkzeug - INFO - 127.0.0.1 - - [23/May/2025 10:33:49] "POST /add-faces HTTP/1.1" 200 -
+2025-05-23 10:33:50,042 - facenet_model_casia - INFO - Embeddings saved to C:\PyProjects\face_recognition\models\face_embeddings.pkl
+2025-05-23 10:33:50,043 - werkzeug - INFO - 127.0.0.1 - - [23/May/2025 10:33:50] "POST /add-faces HTTP/1.1" 200 -
+2025-05-23 10:39:28,796 - pyngrok.process.ngrok - INFO - t=2025-05-23T10:39:28+0700 lvl=info msg="received stop request" obj=app stopReq="{err:<nil> restart:false}"
+2025-05-23 10:39:28,797 - pyngrok.process.ngrok - INFO - t=2025-05-23T10:39:28+0700 lvl=info msg="session closing" obj=tunnels.session err=nil
+2025-05-23 10:39:28,798 - pyngrok.process.ngrok - INFO - t=2025-05-23T10:39:28+0700 lvl=info msg="accept failed" obj=tunnels.session obj=csess id=a395e6365784 err="reconnecting session closed"
+2025-05-23 10:39:28,798 - pyngrok.process.ngrok - INFO - t=2025-05-23T10:39:28+0700 lvl=info msg="no more state changes" obj=tunnels.session
+2025-05-23 10:39:28,798 - pyngrok.process.ngrok - INFO - t=2025-05-23T10:39:28+0700 lvl=info msg="failed to accept connection: Listener closed" obj=tunnels.session clientid=aaa2e6cd0023d796db941a8637ad4d51
+2025-05-23 10:39:28,798 - pyngrok.process.ngrok - WARNING - t=2025-05-23T10:39:28+0700 lvl=warn msg="Stopping forwarder" name=http-5000-5d326e52-5fc4-4005-98b8-20db3e996c2e acceptErr="failed to accept connection: Listener closed"
+2025-05-23 10:41:02,491 - face_detector_simple - INFO - MTCNN initialized with basic parameters
+2025-05-23 10:41:02,492 - facenet_model_casia - INFO - Using device: cpu
+2025-05-23 10:41:02,492 - facenet_model_casia - INFO - Loading CASIA-WebFace model...
+2025-05-23 10:41:02,880 - facenet_model_casia - INFO - CASIA-WebFace model loaded successfully
+2025-05-23 10:41:02,881 - facenet_model_casia - INFO - Output shape: torch.Size([1, 512])
+2025-05-23 10:41:02,881 - facenet_model_casia - INFO - FaceNet model initialized successfully with CASIA-WebFace
+2025-05-23 10:41:02,889 - facenet_model_casia - INFO - Loaded embeddings for 36 identities
+2025-05-23 10:41:02,891 - __main__ - INFO - Starting server on 0.0.0.0:5000
+2025-05-23 10:41:02,904 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.18.216:5000
+2025-05-23 10:41:02,905 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-05-23 10:41:15,344 - werkzeug - INFO - 127.0.0.1 - - [23/May/2025 10:41:15] "GET /identities HTTP/1.1" 200 -
+2025-05-23 10:41:36,855 - facenet_model_casia - INFO - Embeddings saved to C:\PyProjects\face_recognition\models\face_embeddings.pkl
+2025-05-23 10:41:36,856 - werkzeug - INFO - 127.0.0.1 - - [23/May/2025 10:41:36] "POST /add-faces HTTP/1.1" 200 -
+2025-05-23 10:41:42,728 - facenet_model_casia - INFO - Embeddings saved to C:\PyProjects\face_recognition\models\face_embeddings.pkl
+2025-05-23 10:41:42,729 - werkzeug - INFO - 127.0.0.1 - - [23/May/2025 10:41:42] "POST /add-faces HTTP/1.1" 200 -
+2025-05-23 10:41:47,994 - werkzeug - INFO - 127.0.0.1 - - [23/May/2025 10:41:47] "GET /identities HTTP/1.1" 200 -
+2025-05-23 10:41:52,305 - facenet_model_casia - INFO - Registered dims with 1 valid embeddings
+2025-05-23 10:41:52,305 - facenet_model_casia - INFO - Embeddings saved to C:\PyProjects\face_recognition\models\face_embeddings.pkl
+2025-05-23 10:41:52,307 - werkzeug - INFO - 127.0.0.1 - - [23/May/2025 10:41:52] "POST /register-identity HTTP/1.1" 200 -
+2025-05-23 10:42:00,760 - werkzeug - INFO - 127.0.0.1 - - [23/May/2025 10:42:00] "POST /verify-face HTTP/1.1" 200 -
+2025-05-23 10:42:13,113 - werkzeug - INFO - 127.0.0.1 - - [23/May/2025 10:42:13] "POST /verify-face HTTP/1.1" 200 -
+2025-05-23 10:42:16,835 - werkzeug - INFO - 127.0.0.1 - - [23/May/2025 10:42:16] "POST /verify-face HTTP/1.1" 200 -
+2025-05-23 10:42:18,308 - werkzeug - INFO - 127.0.0.1 - - [23/May/2025 10:42:18] "POST /verify-face HTTP/1.1" 200 -
+2025-05-23 10:42:19,725 - werkzeug - INFO - 127.0.0.1 - - [23/May/2025 10:42:19] "POST /verify-face HTTP/1.1" 200 -
+2025-05-23 10:42:22,593 - werkzeug - INFO - 127.0.0.1 - - [23/May/2025 10:42:22] "POST /verify-face HTTP/1.1" 200 -
+2025-05-23 10:42:23,833 - werkzeug - INFO - 127.0.0.1 - - [23/May/2025 10:42:23] "POST /verify-face HTTP/1.1" 200 -
+2025-05-23 10:42:24,980 - werkzeug - INFO - 127.0.0.1 - - [23/May/2025 10:42:24] "POST /verify-face HTTP/1.1" 200 -
+2025-05-23 10:43:01,551 - werkzeug - INFO - 127.0.0.1 - - [23/May/2025 10:43:01] "POST /verify-face HTTP/1.1" 200 -
+2025-05-23 10:43:12,635 - werkzeug - INFO - 127.0.0.1 - - [23/May/2025 10:43:12] "POST /verify-face HTTP/1.1" 200 -
+2025-05-23 10:43:16,882 - werkzeug - INFO - 127.0.0.1 - - [23/May/2025 10:43:16] "POST /verify-face HTTP/1.1" 200 -
+2025-05-23 10:43:39,460 - facenet_model_casia - INFO - Embeddings saved to C:\PyProjects\face_recognition\models\face_embeddings.pkl
+2025-05-23 10:43:39,461 - werkzeug - INFO - 127.0.0.1 - - [23/May/2025 10:43:39] "POST /add-faces HTTP/1.1" 200 -
+2025-05-23 10:43:46,502 - werkzeug - INFO - 127.0.0.1 - - [23/May/2025 10:43:46] "GET /identities HTTP/1.1" 200 -
+2025-05-23 10:43:55,424 - werkzeug - INFO - 127.0.0.1 - - [23/May/2025 10:43:55] "POST /verify-face HTTP/1.1" 200 -
+2025-05-23 10:44:15,059 - werkzeug - INFO - 127.0.0.1 - - [23/May/2025 10:44:15] "POST /verify-face HTTP/1.1" 200 -
+2025-05-23 10:44:23,981 - werkzeug - INFO - 127.0.0.1 - - [23/May/2025 10:44:23] "POST /verify-face HTTP/1.1" 200 -
+2025-05-23 10:44:36,213 - werkzeug - INFO - 127.0.0.1 - - [23/May/2025 10:44:36] "POST /verify-face HTTP/1.1" 200 -
+2025-05-23 10:44:41,734 - werkzeug - INFO - 127.0.0.1 - - [23/May/2025 10:44:41] "POST /verify-face HTTP/1.1" 200 -
+2025-05-23 10:45:34,093 - werkzeug - INFO - 127.0.0.1 - - [23/May/2025 10:45:34] "POST /verify-face HTTP/1.1" 200 -
+2025-06-08 09:50:55,504 - face_detector_simple - INFO - MTCNN initialized with basic parameters
+2025-06-08 09:50:55,505 - facenet_model_casia - INFO - Using device: cpu
+2025-06-08 09:50:55,505 - facenet_model_casia - INFO - Loading CASIA-WebFace model...
+2025-06-08 09:50:56,407 - facenet_model_casia - INFO - CASIA-WebFace model loaded successfully
+2025-06-08 09:50:56,407 - facenet_model_casia - INFO - Output shape: torch.Size([1, 512])
+2025-06-08 09:50:56,408 - facenet_model_casia - INFO - FaceNet model initialized successfully with CASIA-WebFace
+2025-06-08 09:50:56,419 - facenet_model_casia - INFO - Loaded embeddings for 16 identities
+2025-06-08 09:50:56,426 - __main__ - INFO - Starting server on 0.0.0.0:5000
+2025-06-08 09:50:56,443 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.54:5000
+2025-06-08 09:50:56,443 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-06-08 09:51:29,308 - werkzeug - INFO - 127.0.0.1 - - [08/Jun/2025 09:51:29] "POST /verify-face HTTP/1.1" 200 -
+2025-06-08 09:52:26,490 - werkzeug - INFO - 127.0.0.1 - - [08/Jun/2025 09:52:26] "POST /verify-face HTTP/1.1" 200 -
+2025-06-08 09:54:31,514 - werkzeug - INFO - 127.0.0.1 - - [08/Jun/2025 09:54:31] "POST /verify-face HTTP/1.1" 200 -
+2025-06-08 09:58:51,760 - facenet_model_casia - INFO - Registered Dimas with 1 valid embeddings
+2025-06-08 09:58:51,762 - facenet_model_casia - INFO - Embeddings saved to C:\PyProjects\face_recognition\models\face_embeddings.pkl
+2025-06-08 09:58:51,763 - werkzeug - INFO - 127.0.0.1 - - [08/Jun/2025 09:58:51] "POST /register-identity HTTP/1.1" 200 -
+2025-06-08 09:59:03,175 - werkzeug - INFO - 127.0.0.1 - - [08/Jun/2025 09:59:03] "GET /identities HTTP/1.1" 200 -
+2025-06-08 09:59:23,899 - werkzeug - INFO - 127.0.0.1 - - [08/Jun/2025 09:59:23] "POST /verify-face HTTP/1.1" 200 -
+2025-06-08 09:59:48,471 - werkzeug - INFO - 127.0.0.1 - - [08/Jun/2025 09:59:48] "POST /verify-face HTTP/1.1" 200 -
+2025-06-08 10:00:51,250 - werkzeug - INFO - 127.0.0.1 - - [08/Jun/2025 10:00:51] "POST /verify-face HTTP/1.1" 200 -
+2025-06-08 10:01:15,170 - werkzeug - INFO - 127.0.0.1 - - [08/Jun/2025 10:01:15] "POST /verify-face HTTP/1.1" 200 -
+2025-06-08 10:05:08,881 - facenet_model_casia - INFO - Registered Dimas with 5 valid embeddings
+2025-06-08 10:05:08,883 - facenet_model_casia - INFO - Embeddings saved to C:\PyProjects\face_recognition\models\face_embeddings.pkl
+2025-06-08 10:05:08,884 - werkzeug - INFO - 127.0.0.1 - - [08/Jun/2025 10:05:08] "POST /register-identity HTTP/1.1" 200 -
+2025-06-08 10:05:15,077 - werkzeug - INFO - 127.0.0.1 - - [08/Jun/2025 10:05:15] "GET /identities HTTP/1.1" 200 -
+2025-06-08 10:06:05,147 - werkzeug - INFO - 127.0.0.1 - - [08/Jun/2025 10:06:05] "POST /verify-face HTTP/1.1" 200 -
+2025-06-08 10:06:23,929 - werkzeug - INFO - 127.0.0.1 - - [08/Jun/2025 10:06:23] "POST /verify-face HTTP/1.1" 200 -
+2025-06-08 10:07:00,354 - werkzeug - INFO - 127.0.0.1 - - [08/Jun/2025 10:07:00] "POST /verify-face HTTP/1.1" 200 -
+2025-06-08 10:12:56,630 - werkzeug - INFO - 127.0.0.1 - - [08/Jun/2025 10:12:56] "POST /verify-face HTTP/1.1" 200 -
+2025-06-08 10:13:16,886 - werkzeug - INFO - 127.0.0.1 - - [08/Jun/2025 10:13:16] "POST /verify-face HTTP/1.1" 200 -
+2025-06-08 10:33:58,016 - werkzeug - INFO - 127.0.0.1 - - [08/Jun/2025 10:33:58] "[33mPOST /verify HTTP/1.1[0m" 404 -
+2025-06-08 10:34:27,983 - werkzeug - INFO - 127.0.0.1 - - [08/Jun/2025 10:34:27] "[33mPOST /verify HTTP/1.1[0m" 404 -
+2025-06-08 10:34:58,034 - werkzeug - INFO - 127.0.0.1 - - [08/Jun/2025 10:34:58] "[33mPOST /verify HTTP/1.1[0m" 404 -
+2025-06-08 10:35:24,438 - werkzeug - INFO - 127.0.0.1 - - [08/Jun/2025 10:35:24] "[33mPOST /verify HTTP/1.1[0m" 404 -

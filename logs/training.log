@@ -1,0 +1,203 @@
+2025-05-22 21:26:38,585 - __main__ - INFO - Starting face verification training
+2025-05-22 21:26:38,587 - __main__ - INFO - Dataset path: C:\PyProjects\face_recognition\dataset
+2025-05-22 21:26:38,587 - __main__ - INFO - Verification threshold: 0.6
+2025-05-22 21:26:38,587 - face_detector - ERROR - Failed to initialize MTCNN: __init__() got an unexpected keyword argument 'thresholds'
+2025-05-22 21:26:38,587 - __main__ - ERROR - Error during training: __init__() got an unexpected keyword argument 'thresholds'
+2025-05-23 09:27:04,345 - __main__ - INFO - Starting face verification training
+2025-05-23 09:27:04,345 - __main__ - INFO - Dataset path: C:\PyProjects\face_recognition\dataset
+2025-05-23 09:27:04,346 - __main__ - INFO - Verification threshold: 0.6
+2025-05-23 09:27:07,581 - face_detector_robust - INFO - MTCNN initialized successfully (method 1)
+2025-05-23 09:27:07,581 - facenet_model - INFO - Using device: cpu
+2025-05-23 09:27:07,840 - __main__ - ERROR - Error during training: unexpected EOF, expected 406916 more bytes. The file might be corrupted.
+2025-05-23 10:04:47,643 - __main__ - INFO - Starting face verification training
+2025-05-23 10:04:47,644 - __main__ - INFO - Dataset path: C:\PyProjects\face_recognition\dataset
+2025-05-23 10:04:47,644 - __main__ - INFO - Verification threshold: 0.6
+2025-05-23 10:04:50,857 - face_detector_robust - INFO - MTCNN initialized successfully (method 1)
+2025-05-23 10:04:50,858 - facenet_model - INFO - Using device: cpu
+2025-05-23 10:04:51,128 - __main__ - ERROR - Error during training: unexpected EOF, expected 406916 more bytes. The file might be corrupted.
+2025-05-23 10:08:57,089 - __main__ - INFO - Starting face verification training
+2025-05-23 10:08:57,089 - __main__ - INFO - Dataset path: C:\PyProjects\face_recognition\dataset
+2025-05-23 10:08:57,089 - __main__ - INFO - Verification threshold: 0.6
+2025-05-23 10:08:59,320 - face_detector_simple - INFO - MTCNN initialized with basic parameters
+2025-05-23 10:08:59,320 - facenet_model_casia - INFO - Using device: cpu
+2025-05-23 10:08:59,320 - facenet_model_casia - INFO - Loading CASIA-WebFace model...
+2025-05-23 10:08:59,887 - facenet_model_casia - INFO - CASIA-WebFace model loaded successfully
+2025-05-23 10:08:59,887 - facenet_model_casia - INFO - Output shape: torch.Size([1, 512])
+2025-05-23 10:08:59,887 - facenet_model_casia - INFO - FaceNet model initialized successfully with CASIA-WebFace
+2025-05-23 10:08:59,895 - __main__ - INFO - Dataset found: 38 identities, 35 images
+2025-05-23 10:09:03,498 - __main__ - INFO - Starting dataset processing...
+2025-05-23 10:09:03,500 - dataset_processor - INFO - Found 38 identities in dataset
+2025-05-23 10:09:03,502 - dataset_processor - INFO - Processing 1 images for ADE
+2025-05-23 10:09:04,143 - tensorflow - WARNING - 5 out of the last 10 calls to <function Model.make_predict_function.<locals>.predict_function at 0x00000210967C7EE8> triggered tf.function retracing. Tracing is expensive and the excessive number of tracings could be due to (1) creating @tf.function repeatedly in a loop, (2) passing tensors with different shapes, (3) passing Python objects instead of tensors. For (1), please define your @tf.function outside of the loop. For (2), @tf.function has experimental_relax_shapes=True option that relaxes argument shapes that can avoid unnecessary retracing. For (3), please refer to https://www.tensorflow.org/guide/function#controlling_retracing and https://www.tensorflow.org/api_docs/python/tf/function for  more details.
+2025-05-23 10:09:04,301 - facenet_model_casia - INFO - Registered ADE with 1 valid embeddings
+2025-05-23 10:09:04,301 - dataset_processor - INFO - Successfully registered ADE with 1 faces
+2025-05-23 10:09:04,302 - dataset_processor - WARNING - No images found for Ahmad_Budi
+2025-05-23 10:09:04,302 - dataset_processor - INFO - Processing 1 images for ALIF
+2025-05-23 10:09:04,713 - facenet_model_casia - INFO - Registered ALIF with 1 valid embeddings
+2025-05-23 10:09:04,713 - dataset_processor - INFO - Successfully registered ALIF with 1 faces
+2025-05-23 10:09:04,714 - dataset_processor - INFO - Processing 1 images for AMIR
+2025-05-23 10:09:05,184 - facenet_model_casia - INFO - Registered AMIR with 1 valid embeddings
+2025-05-23 10:09:05,184 - dataset_processor - INFO - Successfully registered AMIR with 1 faces
+2025-05-23 10:09:05,185 - dataset_processor - INFO - Processing 1 images for ANTO
+2025-05-23 10:09:05,623 - facenet_model_casia - INFO - Registered ANTO with 1 valid embeddings
+2025-05-23 10:09:05,624 - dataset_processor - INFO - Successfully registered ANTO with 1 faces
+2025-05-23 10:09:05,625 - dataset_processor - INFO - Processing 1 images for ANWAR
+2025-05-23 10:09:06,169 - facenet_model_casia - INFO - Registered ANWAR with 1 valid embeddings
+2025-05-23 10:09:06,169 - dataset_processor - INFO - Successfully registered ANWAR with 1 faces
+2025-05-23 10:09:06,170 - dataset_processor - INFO - Processing 1 images for ARGA
+2025-05-23 10:09:06,619 - facenet_model_casia - INFO - Registered ARGA with 1 valid embeddings
+2025-05-23 10:09:06,619 - dataset_processor - INFO - Successfully registered ARGA with 1 faces
+2025-05-23 10:09:06,620 - dataset_processor - INFO - Processing 1 images for ARI
+2025-05-23 10:09:07,102 - facenet_model_casia - INFO - Registered ARI with 1 valid embeddings
+2025-05-23 10:09:07,102 - dataset_processor - INFO - Successfully registered ARI with 1 faces
+2025-05-23 10:09:07,103 - dataset_processor - INFO - Processing 1 images for BENI
+2025-05-23 10:09:07,558 - facenet_model_casia - INFO - Registered BENI with 1 valid embeddings
+2025-05-23 10:09:07,559 - dataset_processor - INFO - Successfully registered BENI with 1 faces
+2025-05-23 10:09:07,559 - dataset_processor - INFO - Processing 1 images for DIMAS
+2025-05-23 10:09:08,004 - facenet_model_casia - INFO - Registered DIMAS with 1 valid embeddings
+2025-05-23 10:09:08,004 - dataset_processor - INFO - Successfully registered DIMAS with 1 faces
+2025-05-23 10:09:08,005 - dataset_processor - INFO - Processing 1 images for DZIKRI
+2025-05-23 10:09:08,458 - facenet_model_casia - INFO - Registered DZIKRI with 1 valid embeddings
+2025-05-23 10:09:08,458 - dataset_processor - INFO - Successfully registered DZIKRI with 1 faces
+2025-05-23 10:09:08,459 - dataset_processor - INFO - Processing 1 images for HADI
+2025-05-23 10:09:08,946 - facenet_model_casia - INFO - Registered HADI with 1 valid embeddings
+2025-05-23 10:09:08,946 - dataset_processor - INFO - Successfully registered HADI with 1 faces
+2025-05-23 10:09:08,947 - dataset_processor - INFO - Processing 1 images for HASAN
+2025-05-23 10:09:09,403 - facenet_model_casia - INFO - Registered HASAN with 1 valid embeddings
+2025-05-23 10:09:09,403 - dataset_processor - INFO - Successfully registered HASAN with 1 faces
+2025-05-23 10:09:09,404 - dataset_processor - INFO - Processing 1 images for IQBAL
+2025-05-23 10:09:09,873 - facenet_model_casia - INFO - Registered IQBAL with 1 valid embeddings
+2025-05-23 10:09:09,873 - dataset_processor - INFO - Successfully registered IQBAL with 1 faces
+2025-05-23 10:09:09,873 - dataset_processor - INFO - Processing 1 images for IRFAN
+2025-05-23 10:09:10,319 - facenet_model_casia - INFO - Registered IRFAN with 1 valid embeddings
+2025-05-23 10:09:10,319 - dataset_processor - INFO - Successfully registered IRFAN with 1 faces
+2025-05-23 10:09:10,320 - dataset_processor - WARNING - No images found for Jane_Smith
+2025-05-23 10:09:10,320 - dataset_processor - WARNING - No images found for John_Doe
+2025-05-23 10:09:10,320 - dataset_processor - INFO - Processing 1 images for KESUMA
+2025-05-23 10:09:10,776 - facenet_model_casia - INFO - Registered KESUMA with 1 valid embeddings
+2025-05-23 10:09:10,776 - dataset_processor - INFO - Successfully registered KESUMA with 1 faces
+2025-05-23 10:09:10,777 - dataset_processor - INFO - Processing 1 images for KUKUH
+2025-05-23 10:09:11,227 - facenet_model_casia - INFO - Registered KUKUH with 1 valid embeddings
+2025-05-23 10:09:11,227 - dataset_processor - INFO - Successfully registered KUKUH with 1 faces
+2025-05-23 10:09:11,228 - dataset_processor - INFO - Processing 1 images for KUSNADI
+2025-05-23 10:09:11,690 - facenet_model_casia - INFO - Registered KUSNADI with 1 valid embeddings
+2025-05-23 10:09:11,690 - dataset_processor - INFO - Successfully registered KUSNADI with 1 faces
+2025-05-23 10:09:11,691 - dataset_processor - INFO - Processing 1 images for MIKO
+2025-05-23 10:09:12,123 - facenet_model_casia - INFO - Registered MIKO with 1 valid embeddings
+2025-05-23 10:09:12,124 - dataset_processor - INFO - Successfully registered MIKO with 1 faces
+2025-05-23 10:09:12,124 - dataset_processor - INFO - Processing 1 images for NAUFAL
+2025-05-23 10:09:12,597 - facenet_model_casia - INFO - Registered NAUFAL with 1 valid embeddings
+2025-05-23 10:09:12,597 - dataset_processor - INFO - Successfully registered NAUFAL with 1 faces
+2025-05-23 10:09:12,598 - dataset_processor - INFO - Processing 1 images for OKI
+2025-05-23 10:09:13,071 - facenet_model_casia - INFO - Registered OKI with 1 valid embeddings
+2025-05-23 10:09:13,071 - dataset_processor - INFO - Successfully registered OKI with 1 faces
+2025-05-23 10:09:13,072 - dataset_processor - INFO - Processing 1 images for RAMADHAN
+2025-05-23 10:09:13,548 - facenet_model_casia - INFO - Registered RAMADHAN with 1 valid embeddings
+2025-05-23 10:09:13,548 - dataset_processor - INFO - Successfully registered RAMADHAN with 1 faces
+2025-05-23 10:09:13,549 - dataset_processor - INFO - Processing 1 images for RENALDI
+2025-05-23 10:09:14,012 - facenet_model_casia - INFO - Registered RENALDI with 1 valid embeddings
+2025-05-23 10:09:14,012 - dataset_processor - INFO - Successfully registered RENALDI with 1 faces
+2025-05-23 10:09:14,012 - dataset_processor - INFO - Processing 1 images for RICKO
+2025-05-23 10:09:14,431 - facenet_model_casia - INFO - Registered RICKO with 1 valid embeddings
+2025-05-23 10:09:14,431 - dataset_processor - INFO - Successfully registered RICKO with 1 faces
+2025-05-23 10:09:14,432 - dataset_processor - INFO - Processing 1 images for RIFAI
+2025-05-23 10:09:14,896 - facenet_model_casia - INFO - Registered RIFAI with 1 valid embeddings
+2025-05-23 10:09:14,896 - dataset_processor - INFO - Successfully registered RIFAI with 1 faces
+2025-05-23 10:09:14,897 - dataset_processor - INFO - Processing 1 images for SAPUTRA
+2025-05-23 10:09:15,386 - facenet_model_casia - INFO - Registered SAPUTRA with 1 valid embeddings
+2025-05-23 10:09:15,388 - dataset_processor - INFO - Successfully registered SAPUTRA with 1 faces
+2025-05-23 10:09:15,388 - dataset_processor - INFO - Processing 1 images for SATRIA
+2025-05-23 10:09:15,809 - facenet_model_casia - INFO - Registered SATRIA with 1 valid embeddings
+2025-05-23 10:09:15,809 - dataset_processor - INFO - Successfully registered SATRIA with 1 faces
+2025-05-23 10:09:15,810 - dataset_processor - INFO - Processing 1 images for SEPTIAN
+2025-05-23 10:09:16,287 - facenet_model_casia - INFO - Registered SEPTIAN with 1 valid embeddings
+2025-05-23 10:09:16,287 - dataset_processor - INFO - Successfully registered SEPTIAN with 1 faces
+2025-05-23 10:09:16,288 - dataset_processor - INFO - Processing 1 images for SIGIT
+2025-05-23 10:09:16,695 - facenet_model_casia - INFO - Registered SIGIT with 1 valid embeddings
+2025-05-23 10:09:16,696 - dataset_processor - INFO - Successfully registered SIGIT with 1 faces
+2025-05-23 10:09:16,696 - dataset_processor - INFO - Processing 1 images for SOFYAN
+2025-05-23 10:09:17,166 - facenet_model_casia - INFO - Registered SOFYAN with 1 valid embeddings
+2025-05-23 10:09:17,166 - dataset_processor - INFO - Successfully registered SOFYAN with 1 faces
+2025-05-23 10:09:17,167 - dataset_processor - INFO - Processing 1 images for SOLEH
+2025-05-23 10:09:17,643 - facenet_model_casia - INFO - Registered SOLEH with 1 valid embeddings
+2025-05-23 10:09:17,643 - dataset_processor - INFO - Successfully registered SOLEH with 1 faces
+2025-05-23 10:09:17,644 - dataset_processor - INFO - Processing 1 images for THORIQ
+2025-05-23 10:09:18,115 - facenet_model_casia - INFO - Registered THORIQ with 1 valid embeddings
+2025-05-23 10:09:18,115 - dataset_processor - INFO - Successfully registered THORIQ with 1 faces
+2025-05-23 10:09:18,115 - dataset_processor - INFO - Processing 1 images for WAHYUDI
+2025-05-23 10:09:18,590 - facenet_model_casia - INFO - Registered WAHYUDI with 1 valid embeddings
+2025-05-23 10:09:18,590 - dataset_processor - INFO - Successfully registered WAHYUDI with 1 faces
+2025-05-23 10:09:18,591 - dataset_processor - INFO - Processing 1 images for YADI
+2025-05-23 10:09:19,053 - facenet_model_casia - INFO - Registered YADI with 1 valid embeddings
+2025-05-23 10:09:19,053 - dataset_processor - INFO - Successfully registered YADI with 1 faces
+2025-05-23 10:09:19,053 - dataset_processor - INFO - Processing 1 images for YAHYA
+2025-05-23 10:09:19,511 - facenet_model_casia - INFO - Registered YAHYA with 1 valid embeddings
+2025-05-23 10:09:19,511 - dataset_processor - INFO - Successfully registered YAHYA with 1 faces
+2025-05-23 10:09:19,512 - dataset_processor - INFO - Processing 1 images for YUSUF
+2025-05-23 10:09:19,980 - facenet_model_casia - INFO - Registered YUSUF with 1 valid embeddings
+2025-05-23 10:09:19,980 - dataset_processor - INFO - Successfully registered YUSUF with 1 faces
+2025-05-23 10:09:19,982 - facenet_model_casia - INFO - Embeddings saved to C:\PyProjects\face_recognition\models\face_embeddings.pkl
+2025-05-23 10:09:19,982 - dataset_processor - INFO - Processing complete: 35 identities registered
+2025-05-23 22:46:45,349 - __main__ - INFO - Starting face verification training
+2025-05-23 22:46:45,350 - __main__ - INFO - Dataset path: C:\PyProjects\face_recognition\dataset
+2025-05-23 22:46:45,350 - __main__ - INFO - Verification threshold: 0.6
+2025-05-23 22:46:54,424 - face_detector_simple - INFO - MTCNN initialized with basic parameters
+2025-05-23 22:46:54,425 - facenet_model_casia - INFO - Using device: cpu
+2025-05-23 22:46:54,425 - facenet_model_casia - INFO - Loading CASIA-WebFace model...
+2025-05-23 22:46:55,113 - facenet_model_casia - INFO - CASIA-WebFace model loaded successfully
+2025-05-23 22:46:55,113 - facenet_model_casia - INFO - Output shape: torch.Size([1, 512])
+2025-05-23 22:46:55,114 - facenet_model_casia - INFO - FaceNet model initialized successfully with CASIA-WebFace
+2025-05-23 22:46:55,117 - __main__ - INFO - Dataset found: 16 identities, 88 images
+2025-05-23 22:46:58,594 - __main__ - INFO - Starting dataset processing...
+2025-05-23 22:46:58,595 - dataset_processor - INFO - Found 16 identities in dataset
+2025-05-23 22:46:58,641 - dataset_processor - INFO - Processing 6 images for abdul
+2025-05-23 22:46:59,645 - tensorflow - WARNING - 5 out of the last 10 calls to <function Model.make_predict_function.<locals>.predict_function at 0x0000021596785CA8> triggered tf.function retracing. Tracing is expensive and the excessive number of tracings could be due to (1) creating @tf.function repeatedly in a loop, (2) passing tensors with different shapes, (3) passing Python objects instead of tensors. For (1), please define your @tf.function outside of the loop. For (2), @tf.function has experimental_relax_shapes=True option that relaxes argument shapes that can avoid unnecessary retracing. For (3), please refer to https://www.tensorflow.org/guide/function#controlling_retracing and https://www.tensorflow.org/api_docs/python/tf/function for  more details.
+2025-05-23 22:47:02,420 - facenet_model_casia - INFO - Registered abdul with 6 valid embeddings
+2025-05-23 22:47:02,421 - dataset_processor - INFO - Successfully registered abdul with 6 faces
+2025-05-23 22:47:02,421 - dataset_processor - INFO - Processing 6 images for agus
+2025-05-23 22:47:05,476 - facenet_model_casia - INFO - Registered agus with 6 valid embeddings
+2025-05-23 22:47:05,476 - dataset_processor - INFO - Successfully registered agus with 6 faces
+2025-05-23 22:47:05,476 - dataset_processor - INFO - Processing 6 images for ahmad
+2025-05-23 22:47:08,451 - facenet_model_casia - INFO - Registered ahmad with 6 valid embeddings
+2025-05-23 22:47:08,452 - dataset_processor - INFO - Successfully registered ahmad with 6 faces
+2025-05-23 22:47:08,453 - dataset_processor - INFO - Processing 6 images for alzaro
+2025-05-23 22:47:11,338 - facenet_model_casia - INFO - Registered alzaro with 6 valid embeddings
+2025-05-23 22:47:11,339 - dataset_processor - INFO - Successfully registered alzaro with 6 faces
+2025-05-23 22:47:11,339 - dataset_processor - INFO - Processing 5 images for ari
+2025-05-23 22:47:13,645 - facenet_model_casia - INFO - Registered ari with 5 valid embeddings
+2025-05-23 22:47:13,646 - dataset_processor - INFO - Successfully registered ari with 5 faces
+2025-05-23 22:47:13,646 - dataset_processor - INFO - Processing 5 images for daryono
+2025-05-23 22:47:16,039 - facenet_model_casia - INFO - Registered daryono with 5 valid embeddings
+2025-05-23 22:47:16,039 - dataset_processor - INFO - Successfully registered daryono with 5 faces
+2025-05-23 22:47:16,040 - dataset_processor - INFO - Processing 6 images for dedi
+2025-05-23 22:47:18,848 - facenet_model_casia - INFO - Registered dedi with 6 valid embeddings
+2025-05-23 22:47:18,849 - dataset_processor - INFO - Successfully registered dedi with 6 faces
+2025-05-23 22:47:18,849 - dataset_processor - INFO - Processing 6 images for devian
+2025-05-23 22:47:21,735 - facenet_model_casia - INFO - Registered devian with 6 valid embeddings
+2025-05-23 22:47:21,736 - dataset_processor - INFO - Successfully registered devian with 6 faces
+2025-05-23 22:47:21,736 - dataset_processor - INFO - Processing 5 images for heri
+2025-05-23 22:47:24,129 - facenet_model_casia - INFO - Registered heri with 5 valid embeddings
+2025-05-23 22:47:24,129 - dataset_processor - INFO - Successfully registered heri with 5 faces
+2025-05-23 22:47:24,130 - dataset_processor - INFO - Processing 4 images for iksan
+2025-05-23 22:47:26,043 - facenet_model_casia - INFO - Registered iksan with 4 valid embeddings
+2025-05-23 22:47:26,043 - dataset_processor - INFO - Successfully registered iksan with 4 faces
+2025-05-23 22:47:26,044 - dataset_processor - INFO - Processing 4 images for janta
+2025-05-23 22:47:27,924 - facenet_model_casia - INFO - Registered janta with 4 valid embeddings
+2025-05-23 22:47:27,924 - dataset_processor - INFO - Successfully registered janta with 4 faces
+2025-05-23 22:47:27,925 - dataset_processor - INFO - Processing 6 images for jeffry
+2025-05-23 22:47:31,069 - facenet_model_casia - INFO - Registered jeffry with 6 valid embeddings
+2025-05-23 22:47:31,069 - dataset_processor - INFO - Successfully registered jeffry with 6 faces
+2025-05-23 22:47:31,070 - dataset_processor - INFO - Processing 6 images for joko
+2025-05-23 22:47:33,918 - facenet_model_casia - INFO - Registered joko with 6 valid embeddings
+2025-05-23 22:47:33,919 - dataset_processor - INFO - Successfully registered joko with 6 faces
+2025-05-23 22:47:33,919 - dataset_processor - INFO - Processing 5 images for sudirman
+2025-05-23 22:47:36,339 - facenet_model_casia - INFO - Registered sudirman with 5 valid embeddings
+2025-05-23 22:47:36,339 - dataset_processor - INFO - Successfully registered sudirman with 5 faces
+2025-05-23 22:47:36,340 - dataset_processor - INFO - Processing 6 images for tristan
+2025-05-23 22:47:39,356 - facenet_model_casia - INFO - Registered tristan with 6 valid embeddings
+2025-05-23 22:47:39,356 - dataset_processor - INFO - Successfully registered tristan with 6 faces
+2025-05-23 22:47:39,357 - dataset_processor - INFO - Processing 6 images for yeyet
+2025-05-23 22:47:42,642 - facenet_model_casia - INFO - Registered yeyet with 6 valid embeddings
+2025-05-23 22:47:42,643 - dataset_processor - INFO - Successfully registered yeyet with 6 faces
+2025-05-23 22:47:42,653 - facenet_model_casia - INFO - Embeddings saved to C:\PyProjects\face_recognition\models\face_embeddings.pkl
+2025-05-23 22:47:42,653 - dataset_processor - INFO - Processing complete: 16 identities registered

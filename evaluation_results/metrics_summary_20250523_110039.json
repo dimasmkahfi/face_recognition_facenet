@@ -1,0 +1,8 @@
+{
+  "accuracy": 1.0,
+  "detection_rate": 1.0,
+  "recognition_rate": 1.0,
+  "far": 0.0,
+  "frr": 0.0,
+  "total_samples": 35,
+  "detected_samples": 
